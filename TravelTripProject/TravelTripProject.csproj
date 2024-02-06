@@ -128,8 +128,10 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\GirisYapController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -200,6 +202,10 @@
     <Content Include="webblog\images\paris-1254781_1920.jpg" />
     <Content Include="webblog\single.html" />
     <Content Include="webblog\w3layouts-License.txt" />
+    <Content Include="weblogin Tema\css\style.css" />
+    <Content Include="weblogin Tema\images\b4.jpg" />
+    <Content Include="weblogin Tema\index.html" />
+    <Content Include="weblogin Tema\w3layouts-License.txt" />
     <Content Include="web\about.html" />
     <Content Include="web\contact.html" />
     <Content Include="web\css\slider.css" />
@@ -274,6 +280,16 @@
     <Content Include="Views\Default\Partial3.cshtml" />
     <Content Include="Views\Default\Partial4.cshtml" />
     <Content Include="Views\Default\Partial5.cshtml" />
+    <Content Include="Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Admin\YeniBlog.cshtml" />
+    <Content Include="Views\Admin\BlogGetir.cshtml" />
+    <Content Include="Views\Blog\YorumYap.cshtml" />
+    <Content Include="Views\Admin\YorumListesi.cshtml" />
+    <Content Include="Views\Admin\YorumGetir.cshtml" />
+    <Content Include="weblogin Tema\fonts\Asap-Regular.ttf" />
+    <Content Include="weblogin Tema\fonts\Audiowide-Regular.ttf" />
+    <Content Include="Views\GirisYap\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
